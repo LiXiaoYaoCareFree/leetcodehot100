@@ -30,13 +30,6 @@ func maxArea(height []int) int {
 	return ans
 }
 
-func min(x, y int) int {
-	if x < y {
-		return x
-	}
-	return y
-}
-
 func main() {
 	var n int
 	if _, err := fmt.Scan(&n); err != nil {
