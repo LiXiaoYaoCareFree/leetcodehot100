@@ -35,3 +35,14 @@ func maxSlidingWindow(nums []int, k int) []int {
 	}
 	return ans
 }
+
+/*
+
+@'
+8
+1 3 -1 -3 5 3 6 7
+3
+'@ | go run .\SlidingWindowMaximum.go
+
+
+*/
