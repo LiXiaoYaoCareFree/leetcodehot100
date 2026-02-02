@@ -18,7 +18,7 @@ import (
 [[1 6] [8 10] [15 18]]
 */
 
-func merge(intervals [][]int) [][]int {
+func mymerge(intervals [][]int) [][]int {
 	if len(intervals) == 0 {
 		return nil
 	}
@@ -50,6 +50,6 @@ func main() {
 		intervals[i] = make([]int, 2)
 		fmt.Scan(&intervals[i][0], &intervals[i][1])
 	}
-	res := merge(intervals)
+	res := mymerge(intervals)
 	fmt.Println(res)
 }
